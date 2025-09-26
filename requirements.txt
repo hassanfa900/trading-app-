@@ -1,1 +1,8 @@
+fastapi==0.111.0          # لبناء REST API والـ WebSocket
+uvicorn==0.30.1           # لتشغيل السيرفر (ASGI server)
+websockets==12.0          # للتعامل مع WebSocket
+aiohttp==3.9.5            # لجلب البيانات من Twelve Data REST API
+pandas==2.2.2             # لمعالجة البيانات والجداول
+pandas_ta==0.3.14b        # لحساب المؤشرات الفنية (RSI, EMA, MACD...)
+python-dotenv==1.0.1      # لإدارة مفاتيح API من ملف .env
 
